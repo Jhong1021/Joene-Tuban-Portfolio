@@ -1,0 +1,62 @@
+/* Tools Section */
+.tools-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.section-heading {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.tool-item {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  transition: all 1s;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #D1D9E0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; 
+}
+
+.tool-item.visible {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+
+.tool-item img {
+  max-height: 80px; 
+  max-width: 80%; 
+  margin-bottom: 10px;
+}
+
+.tool-item h4 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.tool-item p {
+  color: #000000;
+  text-align: center; 
+  font-size: 14px; 
+}
+
+.tool-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tool-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .tool-item {
+    margin-bottom: 20px;
+    max-width: 100%; 
+  }
+}

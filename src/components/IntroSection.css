@@ -1,0 +1,68 @@
+/* Background Image */
+.background-image {
+    background-image: url('/public/images/me.jpg'); 
+    height: 100vh; 
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .background-image::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; 
+  }
+  
+  .intro-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2; 
+    padding: 20px;
+  }
+  
+  .intro-text h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  /* Console Animation */
+  .console-container {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    display: block;
+    position: relative;
+    color: white;
+    margin: auto;
+  }
+  
+  .console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+    left: 10px;
+    animation: blink 1s step-start infinite; 
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .hidden {
+    opacity: 0;
+  }

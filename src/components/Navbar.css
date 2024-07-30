@@ -1,0 +1,65 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #28282b !important;
+    color: white !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background-color: #333 !important;
+  }
+  
+  .navbar .navbar-brand {
+    color: white !important;
+    font-weight: bold !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar .navbar-brand:hover {
+    transform: scale(1.05);
+    color: #f8f9fa !important;
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+    font-weight: bold !important;
+    transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #c5a61d !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white !important;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler:hover .navbar-toggler-icon {
+    background-color: #007bff !important;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+  }
+  
+  .nav-link.btn {
+    color: #fff; /* White text color */
+    background-color: #007bff; /* Blue background color */
+    border-radius: 4px;
+    padding: 8px 16px; /* Adjust padding if necessary */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure proper spacing */
+  }
+  
+  .nav-link.btn:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+  }
