@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 import './Contact.css';
 
 const Contact = () => {
@@ -11,13 +12,19 @@ const Contact = () => {
     emailjs
       .sendForm('service_chqsxja', 'template_w1v2kcx', form.current, 'YdxotD56__QuUGD-c')
       .then(
-        (result) => {
-          console.log('Email successfully sent!', result.text);
-          alert('Email successfully sent!');
+        () => {
+          Swal.fire({
+            icon: 'success',
+            title: 'Email Sent',
+            text: 'Your message has been sent successfully!',
+          });
         },
         (error) => {
-          console.log('Failed to send email. Error:', error.text);
-          alert('Failed to send email. Please try again later.');
+          Swal.fire({
+            icon: 'error',
+            title: 'Email Failed',
+            text: `Failed to send email: ${error.text}`,
+          });
         }
       );
   };
