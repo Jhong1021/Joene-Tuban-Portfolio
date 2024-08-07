@@ -95,7 +95,7 @@ const IntroSection = () => {
           <ul className="example-2">
   <li className="icon-content">
     <a
-      href="https://linkedin.com/"
+      href="www.linkedin.com/in/joenetuban"
       aria-label="LinkedIn"
       data-social="linkedin"
     >
@@ -118,7 +118,7 @@ const IntroSection = () => {
   </li>
   <li className="icon-content">
     <a
-      href="https://www.github.com/"
+      href="https://github.com/Jhong1021"
       aria-label="GitHub"
       data-social="github"
     >
@@ -141,7 +141,7 @@ const IntroSection = () => {
   </li>
   <li className="icon-content">
     <a
-      href="https://www.instagram.com/"
+      href="https://www.instagram.com/joene.tuban?igsh=MWRpcm5rczQybHZtNw%3D%3D&utm_source=qr"
       aria-label="Instagram"
       data-social="instagram"
     >
@@ -165,7 +165,7 @@ const IntroSection = () => {
 
   <li className="icon-content">
     <a
-      href="https://www.facebook.com/"
+      href="https://www.facebook.com/joene.tuban?mibextid=LQQJ4d"
       aria-label="Facebook"
       data-social="facebook"
     >
