@@ -1,53 +1,63 @@
 .contact-section {
-    background-color: #333;
-    color: #fff;
-    padding: 60px 0;
-  }
-  
-  .contact-section h2 {
-    color: #fff;
-  }
-  
-  .contact-info,
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .contact-info {
-    padding-right: 15px;
-  }
-  
-  .contact-form {
-    padding-left: 15px;
-  }
-  
-  .contact-section .form-control {
-    background-color: #444;
-    color: #fff;
-    border: 1px solid #555;
-  }
-  
-  .contact-section .form-control::placeholder {
-    color: #aaa;
-  }
-  
-  .contact-section .btn-primary {
-    background-color: #007bff;
-    border: none;
-  }
-  
-  .contact-section .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Ensure the grid columns are equal height */
-  .row {
-    display: flex;
-  }
-  
-  .col-md-6 {
-    flex: 1;
-  }
-  
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+  height: 100vh; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-heading {
+  color: #fff; 
+}
+
+.contact-info,
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-info {
+  padding-right: 15px;
+}
+
+.contact-form {
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 10px; /* Optional: rounded corners */
+  padding: 20px; /* Optional: adjust padding */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+}
+
+.contact-section .form-control {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for inputs */
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.contact-section .form-control::placeholder {
+  color: #aaa;
+}
+
+.contact-section .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Ensure the grid columns are equal height */
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col-md-6 {
+  flex: 1;
+}
