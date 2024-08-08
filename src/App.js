@@ -1,21 +1,22 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import IntroSection from './components/IntroSection';
-import Projects from './components/Projects';
 import Tools from './components/Tools';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ProjectPage from './components/ProjectPage';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
     <div className="App">
       <Navbar /> 
       <IntroSection />
-      <Projects />
+      <ProjectPage />
+      <AboutMe />
       <Tools />
       <Contact />
       <Footer />
-      {/* Other components or content here */}
     </div>
   );
 }

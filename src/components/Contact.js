@@ -30,21 +30,21 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact-section bg-dark text-light py-5">
+    <section id="contact" className="contact-section">
       <div className="container">
         <h2 className="section-heading text-center mb-4">Contact Me</h2>
         <div className="row">
           <div className="col-md-6 contact-info">
             <h4>Get in Touch</h4>
             <p>If you have any questions or just want to say hello, feel free to drop me a message. I'll get back to you as soon as I can!</p>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled d-flex flex-column">
               <li><i className="bi bi-phone-fill"></i> 0956 027 3240</li>
               <li><i className="bi bi-envelope-fill"></i> joenetuban@gmail.com</li>
               <li><i className="bi bi-geo-alt-fill"></i> Barangay Culiat, Quezon City, Philippines</li>
             </ul>
           </div>
           <div className="col-md-6 contact-form">
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className="glass-effect">
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">Name</label>
                 <input type="text" className="form-control" id="name" name="user_name" placeholder="Your Name" required />

@@ -25,8 +25,10 @@ const Navbar = () => {
           <div className="navbar-nav ms-auto">
             <a className="nav-link active" aria-current="page" href="#">Home</a>
             <a className="nav-link" href="#projects">Projects</a>
+            <a className="nav-link" href="#about-me">About</a>
             <a className="nav-link" href="#tools">Tools</a>
             <a className="nav-link" href="#contact">Contact</a>
+            
           </div>
         </div>
       </div>

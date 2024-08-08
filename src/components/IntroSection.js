@@ -84,7 +84,7 @@ const IntroSection = () => {
   };
 
   return (
-    <div className="background-image">
+    <div id='home' className="background-image">
       <div className="intro-text">
         <h1>Hi! I'm Joene Tuban</h1>
         <div className="console-container">

@@ -1,16 +1,12 @@
+/* Contact.css */
 .contact-section {
   background-color: #333;
   color: #fff;
   padding: 60px 0;
-  height: 100vh; 
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.section-heading {
-  color: #fff; 
+.contact-section h2 {
+  color: #fff;
 }
 
 .contact-info,
@@ -18,25 +14,24 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
 }
 
 .contact-info {
   padding-right: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .contact-form {
   padding-left: 15px;
-  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-  border-radius: 10px; /* Optional: rounded corners */
-  padding: 20px; /* Optional: adjust padding */
-  backdrop-filter: blur(10px); /* Frosted glass effect */
 }
 
 .contact-section .form-control {
-  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for inputs */
+  background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
-  border: 1px solid #555;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .contact-section .form-control::placeholder {
@@ -52,10 +47,19 @@
   background-color: #0056b3;
 }
 
+/* Frosted glass effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 /* Ensure the grid columns are equal height */
 .row {
   display: flex;
-  width: 100%;
 }
 
 .col-md-6 {

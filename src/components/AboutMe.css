@@ -1,0 +1,20 @@
+.about-me-section {
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+  }
+  
+  .intro {
+    padding-right: 15px; /* Adjust spacing */
+  }
+  
+  .profile-image img {
+    max-width: 80%; /* Ensure the image is not too large */
+    height: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .profile-image img {
+      max-width: 100%;
+    }
+  }
+  
