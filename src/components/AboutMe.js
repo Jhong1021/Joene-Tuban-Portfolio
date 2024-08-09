@@ -15,6 +15,8 @@ const AboutMe = () => {
               <p>
                 My journey in web development began with a fascination for the possibilities of the web and has since evolved into a commitment to continuously learning and growing. Whether it's developing a responsive user interface or optimizing web performance, I'm dedicated to delivering high-quality results.
               </p>
+              <a href="#contact" class="btn btn-primary btn-lg" role="button">Contact Me</a>
+
             </div>
           </div>
           <div className="col-md-6">

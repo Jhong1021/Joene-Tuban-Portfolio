@@ -1,8 +1,13 @@
 /* Global Styles */
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Bebas Neue', sans-serif;
-    scroll-behavior: smooth;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  scroll-behavior: smooth;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', serif;
+ }
+
+ 
   
