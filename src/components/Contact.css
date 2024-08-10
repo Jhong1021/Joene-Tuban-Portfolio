@@ -1,4 +1,3 @@
-/* Contact.css */
 .contact-section {
   background-color: #333;
   color: #fff;
@@ -38,13 +37,22 @@
   color: #aaa;
 }
 
+/* Button styling */
 .contact-section .btn-primary {
   background-color: #007bff;
   border: none;
+  padding: 12px 20px; /* Adjust padding for better text size */
+  font-size: 16px; /* Ideal text size */
+  font-weight: bold;
+  border-radius: 4px; /* Rounded corners */
+  text-align: center;
+  width: 100%; /* Make the button full width */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .contact-section .btn-primary:hover {
   background-color: #0056b3;
+  transform: scale(1.05); /* Slight scale effect on hover */
 }
 
 /* Frosted glass effect */
